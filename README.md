@@ -14,7 +14,7 @@ Run Locally
 uvicorn app.main:app --reload
 
 Build Image
-docker build -t email-classifier . Run Container
+docker build -t email-classifier .
 
 Run Container
 docker run -p 8000:8000 email-classifier
